@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+
+}
+.Nav{
+    display: flex;
+    position: relative;
+    text-decoration: none;
+     background:skyblue;
+     height: 3em;
+     padding-top: 1em;
+
+
+}
+.Nav a {
+    text-decoration: none;
+    color: black;
+}
+.navbar_links{
+    display: inline-block;
+    list-style-type: none;
+    flex: 1; 
+    text-align: right;
+    background:skyblue;
+
+}
+.navbar_links ul li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.navbar_links ul li > a {
+        text-decoration: none;
+        color: black;}
+
+.main_form{
+background-color: #fff;
+margin-top: 3em;
+text-align:center;
+margin-left: 30em;
+margin-right: 30em;
+
+}
+h1{
+margin-bottom: 1em;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding-top: 1.5em;
+padding-left: 1.5em;
+}
+
+input{
+height: 2.5em;
+width: 30em;
+margin-bottom: 0.5em;
+outline: none;
+
+}
+
+
+
+

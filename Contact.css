@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right,rgb(233, 233, 250), rgb(59, 18, 241));
+
+
+}
+.Nav{
+    display: flex;
+    position: relative;
+    text-decoration: none;
+     background:black;
+     height: 3em;
+     padding-top: 1em;
+
+
+}
+.Nav a {
+    text-decoration: none;
+    color: white;
+}
+.navbar_links{
+    display: inline-block;
+    list-style-type: none;
+    flex: 1; 
+    text-align: right;
+    background:black
+
+}
+.navbar_links ul li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.navbar_links ul li > a {
+        text-decoration: none;
+        color: white;}
+.main_form{
+background-color: #fff;
+margin-top: 5em;
+/* text-align:center; */
+margin-left: 30em;
+margin-right: 30em;
+height: 30em;
+padding-left: 7em;
+
+}
+h1{
+margin-bottom: 1em;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding-top: 1.5em;
+padding-left: 1.5em;
+}
+
+input{
+height: 2.5em;
+width: 20em;
+margin-bottom: 0.5em;
+outline: none;
+
+
+}
+.label {
+    text-align: left;
+
+}
+button{
+    width: 20em;
+    height: 3em;
+    /* background-color: rgb(88, 88, 216); */
+    background-image: linear-gradient(to right,rgb(201, 188, 223), rgb(23, 23, 218));
+
+    margin-top: 2em;
+    color: white;
+
+}
+a{
+    margin-bottom: 1em;
+    color: rgb(95, 178, 206);
+}
+p{
+    margin-top:2em ;
+    padding-left: 1em;
+    
+}
+i{
+    position: relative;
+}
