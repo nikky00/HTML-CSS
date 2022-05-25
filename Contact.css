@@ -89,3 +89,114 @@ p{
 i{
     position: relative;
 }
+@media (max-width: 575.98px) { 
+    .Nav{
+        width: 100%;
+        position: fixed;
+        margin-top: -2em;
+        overflow: hidden;
+    }
+    .navbar_links ul li {
+        margin-left: 10px;
+        margin-right: 10px;
+    
+    }
+    .main_form{
+        background-color: #fff;
+        margin-top: 3em;
+        text-align:center;
+        margin-left: 1em;
+        margin-right: 1em;
+        height: 35em;
+        padding-left: 1em;
+        
+        }
+        .select{
+            margin-top: 1em;
+        }
+    
+}
+@media (min-width: 768px) {
+
+    .Nav{
+        width: 100%;
+        position: fixed;
+        margin-top: -2em;
+        overflow: hidden;
+        /* z-index: -1; */
+    }
+    .navbar_links ul li {
+        margin-left: 10px;
+        margin-right: 10px;
+    
+    }
+    .main_form{
+        background-color: #fff;
+        margin-top: 3em;
+        text-align:center;
+        margin-left: 1em;
+        margin-right: 1em;
+        height: 35em;
+        padding-left: 1em;
+        
+        }
+        .select{
+            margin-top: 1em;
+        }
+    
+}
+@media (min-width: 992px) {
+    .Nav{
+        width: 100%;
+        position: fixed;
+        margin-top: -2em;
+        overflow: hidden;
+        /* z-index: -1; */
+    }
+    .navbar_links ul li {
+        margin-left: 10px;
+        margin-right: 10px;
+    
+    }
+    .main_form{
+        background-color: #fff;
+        margin-top: 3em;
+        text-align:center;
+        margin-left: 1em;
+        margin-right: 1em;
+        height: 35em;
+        padding-left: 1em;
+        
+        }
+        .select{
+            margin-top: 1em;
+        }
+}
+@media (max-width: 1199.98px) { 
+    .Nav{
+        width: 100%;
+        position: fixed;
+        margin-top: -2em;
+        overflow: hidden;
+        /* z-index: -1; */
+    }
+    .navbar_links ul li {
+        margin-left: 10px;
+        margin-right: 10px;
+    
+    }
+    .main_form{
+        background-color: #fff;
+        margin-top: 3em;
+        text-align:center;
+        margin-left: 1em;
+        margin-right: 1em;
+        height: 35em;
+        padding-left: 1em;
+        
+        }
+        .select{
+            margin-top: 1em;
+        }
+}
+

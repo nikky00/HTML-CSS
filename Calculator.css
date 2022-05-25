@@ -1,16 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    background-color: black;
-
-}
 .Nav{
     display: flex;
     position: relative;
     text-decoration: none;
-     background:skyblue;
+     background:black;
      height: 3em;
      padding-top: 1em;
 
@@ -18,14 +10,14 @@ body{
 }
 .Nav a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .navbar_links{
     display: inline-block;
     list-style-type: none;
     flex: 1; 
     text-align: right;
-    background:skyblue;
+    background:black
 
 }
 .navbar_links ul li {
@@ -36,29 +28,38 @@ body{
 }
 .navbar_links ul li > a {
         text-decoration: none;
-        color: black;}
+        color: white;}
+table {
+    width: 50vw;
+    height: 80vh;
+    border-radius: 5px;
+}
 
-.main_form{
-background-color: #fff;
-margin-top: 3em;
+.title{
+margin-bottom: 10px;
 text-align:center;
-margin-left: 30em;
-margin-right: 30em;
+width: 210px;
+color:#be3144;
+border: solid teal 2px;
+border-radius: 5px;
 
 }
-h1{
-margin-bottom: 1em;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-padding-top: 1.5em;
-padding-left: 1.5em;
+
+input[type="button"]
+{
+background-color:orange;
+color: whitesmoke;
+border: solid #be3144 2px;
+border-radius: 5px;
+width:100%
 }
 
-input{
-height: 2.5em;
-width: 30em;
-margin-bottom: 0.5em;
-outline: none;
-
+input[type="text"]
+{
+background-color:grey;
+border: solid #be3144 2px;
+border-radius: 5px;
+width:100%
 }
 @media (max-width: 575.98px) { 
     .Nav{
@@ -72,14 +73,6 @@ outline: none;
         margin-right: 10px;
     
     }
-    .main_form{
-        background-color: #fff;
-        margin-top: 3em;
-        /* text-align:center; */
-        margin-left: 10em;
-        margin-right: 10em;
-        
-        }
     
 }
 @media (min-width: 576px) {
@@ -89,23 +82,11 @@ outline: none;
         position: fixed;
         margin-top: -2em;
         overflow: hidden;
+        z-index: -1;
     }
     .navbar_links ul li {
         margin-left: 10px;
         margin-right: 10px;
     
     }
-    .main_form{
-        background-color: #fff;
-        margin-top: 5em;
-        /* text-align:center; */
-        margin-left: 10em;
-        margin-right: 10em;
-        border: 2px solid red;
-        
-        }
 }
-
-
-
-
